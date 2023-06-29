@@ -251,7 +251,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .btn:hover {
-  color: #3a77e9;
+  border-style: double;
+  border-color: #ffffff;
+  color: #000000bb;
   text-decoration: none;
 }
 
@@ -275,8 +277,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #766dcc;
-  border-color: #766dcc;
+  background-color: #7970ca;
+  border-color: #766dcc96;
 }
 
 .btn-primary:hover {
@@ -355,7 +357,7 @@ fieldset:disabled a.btn {
 
 .btn-success:hover {
   color: #fff;
-  background-color: #212888;
+  background-color: #2128889a;
   border-color: #212888;
 }
 
@@ -609,9 +611,6 @@ fieldset:disabled a.btn {
     height: 60px;
   }
 
-  #header.header-top h1 {
-    font-size: 26px;
-  }
 }
 
 /*--------------------------------------------------------------
